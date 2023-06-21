@@ -1,4 +1,5 @@
-consulta.py : import sqlite3
+consulta.py
+import sqlite3
 conexion = sqlite3.connect('basedatos.db')
 conexion.execute('''
     CREATE TABLE IF NOT EXISTS consulta (
